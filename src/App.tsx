@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [hamburgerOpen, setHamburgerOpen] = useState(false)
+  const [, setHamburgerOpen] = useState(false)
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
   const [galleryFilter, setGalleryFilter] = useState('all')
 
